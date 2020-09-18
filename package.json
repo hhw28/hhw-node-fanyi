@@ -1,0 +1,23 @@
+{
+  "name": "hhw-node-fanyi",
+  "version": "0.0.7",
+  "main": "dist/src/main.js",
+  "license": "MIT",
+  "bin": {
+    "fy": "dist/src/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "dependencies": {
+    "commander": "^3.0.2",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.1.33",
+    "@types/node": "^12.11.2"
+  }
+}
